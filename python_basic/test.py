@@ -34,3 +34,13 @@ print(type(split))
 print(split)
 split = h.split('e')
 print(split)
+
+data = "12;10;1;8;0"
+separated_data = data.split(';')
+print(separated_data)
+print(data)
+print(data.split(';'))
+
+#bolinish partition()
+#formation string
+print('My name is {}'.format('Bekhzod'))
