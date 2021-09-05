@@ -28,3 +28,9 @@ else:
 h = 'hello'
 print(h.startswith('hel'))
 print(h.endswith('os'))
+
+split = h.split('l')
+print(type(split))
+print(split)
+split = h.split('e')
+print(split)
