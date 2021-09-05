@@ -44,3 +44,4 @@ print(data.split(';'))
 #bolinish partition()
 #formation string
 print('My name is {}'.format('Bekhzod'))
+my_
