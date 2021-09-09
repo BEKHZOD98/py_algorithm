@@ -41,3 +41,5 @@ print(len(lines))
 
 #delete folder or file
 os.remove('demo2_pyfile.txt') 
+#
+print(second_file.closed)
