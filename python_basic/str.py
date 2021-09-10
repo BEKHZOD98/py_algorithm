@@ -23,7 +23,7 @@ print("{:.3f}".format(distance),sep='')'''
 chicken = int(input('how many chicken?'))
 cows = int(input('how many cows?'))
 pigs = int(input('how many pigs?'))
-total = (chicken*2)+(cows*4)+(pigs*4)
+total = (chicken*2)+(cows+pigs)*4
 print("total legs animal: ",total)
 
 
