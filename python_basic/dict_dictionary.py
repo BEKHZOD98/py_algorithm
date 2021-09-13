@@ -45,3 +45,30 @@ print(type(keys),keys)
 lis = list(players.keys())
 print(type(lis),lis) #Bunday holda lis variable type list boladi
 
+#sorted
+print(sorted(players.keys())) #abcd sort
+#Agarda dict da "Keyga " o'xshagan key borligini tekshirish un in yoki not in ishlatiladi
+print('Carlsen' in players)
+print('Malik' not in players)
+
+#Endi esa Dict ni faqatgina value sini con.log qilish
+vals = players.values()
+print(type(vals),vals)
+#Va value ni listga solib con.log qilish
+lis_dict_value = list(players.values())
+print(type(lis_dict_value),lis_dict_value)
+#Sorted functioni bn value ni ham sort qilamiza
+print(sorted(players.values()))# 1->100
+#Copy qilish
+players_copy = players.copy()
+print(players_copy)
+players.pop('Ding')
+print(players)
+print(players_copy)#dictni copy qilinganda faqat gina ustki qismdan copy qilinadi memoryda saqlanadigan addresdan copy olinmidi va value ham ozgarmidi
+                   #list da esa dict dan farqli olaroq addres berilga un agar variable ozgarsa copy ham ozgaradi 
+
+
+
+
+
+
