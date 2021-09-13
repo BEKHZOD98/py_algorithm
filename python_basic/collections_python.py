@@ -40,3 +40,4 @@ print(num.count(1))
 print(num)
 #list ni nusxasini olish num.copy() copy functioni orqali nusxa olinib song num variablesini o'zgartirsak copy qilganimiz ham o'zgaradi
 num.clear()# bu listdagi barcha indexlarni delete qilib tashlidi
+
