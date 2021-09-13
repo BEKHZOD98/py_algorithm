@@ -19,6 +19,7 @@ print(players.get('Ding'))
 players['So'] = 2760 #qilib dictga yana bitta key va value ni qosha olamiza
 print(players)
 players.pop('Giri') # shu usulda girini delete qilamiza
+#popitem orqali dict ni oxirgi key ini delete qilaolamiza
 del players['So'] #orqali delete qisa boladi
 print(players)
 
@@ -69,7 +70,13 @@ print(players_copy)#dictni copy qilinganda faqat gina ustki qismdan copy qilinad
 
 #for loopi orqali dict ni con.log qilish
 for key, value in players.items():
-    print(key, value)
+    print(key, value) #key and value bu variable dir ularni boshqa nom bn nomlasa boladi
+#ham da setdefault() functioni orqali 'key' ni ozini dict ga qoshse boladi 'value' si esa None boladi
+#dict da keylar unical boladi
+
+
+
+
 
 
 
