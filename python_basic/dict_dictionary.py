@@ -67,6 +67,10 @@ print(players)
 print(players_copy)#dictni copy qilinganda faqat gina ustki qismdan copy qilinadi memoryda saqlanadigan addresdan copy olinmidi va value ham ozgarmidi
                    #list da esa dict dan farqli olaroq addres berilga un agar variable ozgarsa copy ham ozgaradi 
 
+#for loopi orqali dict ni con.log qilish
+for key, value in players.items():
+    print(key, value)
+
 
 
 
