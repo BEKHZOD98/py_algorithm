@@ -22,7 +22,7 @@ players.pop('Giri') # shu usulda girini delete qilamiza
 #popitem orqali dict ni oxirgi key ini delete qilaolamiza
 del players['So'] #orqali delete qisa boladi
 print(players)
-
+sorted()
 
 
 
