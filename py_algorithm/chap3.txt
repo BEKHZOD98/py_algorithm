@@ -1,0 +1,3 @@
+억지 기법 brute-force
+최대 공약수 eng katta umumiy omil
+외판원 문제 travelling salesman problem 
