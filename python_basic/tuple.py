@@ -24,6 +24,9 @@ students = [
     Students('Abbos',13,11)
     ]
 print(students[0].name, students[1].name, students[2].name)
+#tepadagi qatorni qisqartma usuli
+stu1 = Students('Malik',19,4)
+print(stu1.name)
 print(students[2])
 
 
