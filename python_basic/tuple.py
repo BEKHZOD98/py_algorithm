@@ -9,7 +9,33 @@ students = [('Malik',1999,'1kurs'),('Ali',2000,'2kurs'),('Abbos',1998,'3kurs')]
 print(students)
 print(type(students))
 
-from collections import namedtuple
+'''from collections import namedtuple
 Students = namedtuple('Students','name age cours')
 students = [Students('Malik',1999,'1kurs'),Students('Ali',2000,'2kurs'),('Abbos',1998,'3kurs')]
-print(students[0].age)
+print(students[0].age)'''
+
+
+
+from collections import namedtuple
+Students = namedtuple('Player','name age cours')
+students = [
+    Students('Malik',19,4),
+    Students('Habi',24,1),
+    Students('Abbos',13,11)
+    ]
+print(students[0].name, students[1].name, students[2].name)
+print(students[2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
