@@ -31,7 +31,7 @@ for v in vals:
         break 
 print(sum)
 
-for v in vals:
+for v in vals:  
     pass # pass qilish
 
 a = [ 10 ,3 ,3 ,45]
