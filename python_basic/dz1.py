@@ -77,20 +77,48 @@ for x in second_list:
     if(x % 2 == 0):
         joined_list.append(x)
 
-print(f'Merged list: {joined_list}')'''
+print(f'Merged list: {joined_list}')
 
 first_list = [1,2,3,4]
 second_list = [5,6,7,8]
 joined_list = []
 odd = [x for x in first_list if x % 2 !=0]
 even = [x for x in second_list if x % 2 == 0]
-'''joined_list.append(odd)
-joined_list.append(even)'''
+joined_list.append(odd)
+joined_list.append(even)
 joined_list = odd + even
 
-print(f'comperhancion list: {joined_list}')
+print(f'comperhancion list: {joined_list}')'''
 
+'''cards = {
+    'set1':[2,3,4,5,6],#+1
+    'set2':[7,8,9],#0
+    'set3':[10,'J','Q','K','A']#-1
+}
+for i,c_num in cards['set1']:
+    if i % 2 == 0:
+        c_num+=1
+'''
+set1 = {
+    2: 1,
+    3: 1,
+    4: 1,
+    5: 1,
+    6: 1,
+    7:0,
+    8:0,
+    9:0,
+    10: -1,
+    'J': -1,
+    'Q': -1,
+    'K': -1
+}
 
+my_c_set = [2, 3, 4, 10, 'Q', 5]
+total_c_sum = sum([set1[x] for x in my_c_set])
+print('Total card sum: ',total_c_sum)
+
+ 
 
 
 
